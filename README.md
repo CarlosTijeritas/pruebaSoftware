@@ -6,5 +6,6 @@ Para ello se hace uso de una Base de Datos la cual se anexa el códigoTambien el
 Notas:
 **En el campo de la FechaNacimiento de la Base de Datos se empleo un tipo varchar aunque se puede usar uno de tipo de Date() y al momento de recuperarlo checar o cambiar el formato para poder crear una instancia de la clase Empleado.
 **La fecha de Nacimiento debe de ser ingresada con el formato "yyyy/MM/dd" sino lanzará un Exception ya que no es el formato esperado.
-
-
+**Para conectarnos en la Base de Datos en la Clase Conexion.java le indicamos el user y el password para tener acceso a la BD.Para caso particular:
+private static final String JDBC_USER = "root";
+private static final String JDBC_PASS = "1234";
