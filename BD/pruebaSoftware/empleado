@@ -1,0 +1,8 @@
+CREATE TABLE `empleado` (
+  `idEmpleado` int(11) NOT NULL,
+  `nombre` varchar(45) NOT NULLL,
+  `apellidoPaterno` varchar(45) NOT NULLL,
+  `apellidoMaterno` varchar(45) NOT NULL,
+  `fechaNacimiento` varchar(45) NOT NULL,
+  PRIMARY KEY (`idEmpleado`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
